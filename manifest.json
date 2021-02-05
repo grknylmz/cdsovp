@@ -1,0 +1,199 @@
+
+		"cards": {
+			"card00": {
+				"model": "ZOMS_OVRVW_PS_SRV",
+				"template": "sap.ovp.cards.table",
+				"settings": {
+					"title": "{{card00_title}}",
+					"subTitle": "{{card00_subTitle}}",
+					"entitySet": "ZC_RESPMON_PS",
+					"sortBy": "posnr",
+					"sortOrder": "ascending",
+					"addODataSelect": false,
+					"annotationPath": "com.sap.vocabularies.UI.v1.LineItem#Q1"
+				}
+			},
+			"card01": {
+				"model": "ZOMS_OVRVW_PS_SRV",
+				"template": "sap.ovp.cards.list",
+				"settings": {
+					"title": "{{card01_title}}",
+					"subTitle": "{{card01_subTitle}}",
+					"entitySet": "ZC_CHECKBUCHAL_PS",
+					"listType": "extended",
+					"listFlavor": "bar",
+					"sortBy": "Matnr",
+					"addODataSelect": false,
+					"annotationPath": "com.sap.vocabularies.UI.v1.LineItem#Q2"
+				}
+			},
+			"card02": {
+				"model": "ZOMS_OVRVW_PS_SRV",
+				"template": "sap.ovp.cards.charts.analytical",
+				"settings": {
+					"title": "{{card02_title}}",
+					"entitySet": "ZC_FKINTERCOM_PS",
+					"chartAnnotationPath": "com.sap.vocabularies.UI.v1.Chart#Q3",
+					"dataPointAnnotationPath": "com.sap.vocabularies.UI.v1.DataPoint#nQ3",
+					"identificationAnnotationPath": "com.sap.vocabularies.UI.v1.Identification#Q3",
+					"navigation": "dataPointNav"
+				}
+			},
+			"card03": {
+				"model": "ZOMS_OVRVW_PS_SRV",
+				"template": "sap.ovp.cards.stack",
+				"settings": {
+					"title": "{{card03_title}}",
+					"subTitle": "{{card03_subTitle}}",
+					"entitySet": "ZC_CHECKNACRICH_PS",
+					"addODataSelect": false,
+					"annotationPath": "com.sap.vocabularies.UI.v1.HeaderInfo"
+				}
+			},
+			"card04": {
+				"model": "ZOMS_OVRVW_PS_SRV",
+				"template": "sap.ovp.cards.charts.analytical",
+				"settings": {
+					"title": "{{card04_title}}",
+					"entitySet": "ZC_CHECKBUCHAL_PS",
+					"chartAnnotationPath": "com.sap.vocabularies.UI.v1.Chart#Q4",
+					"dataPointAnnotationPath": "com.sap.vocabularies.UI.v1.DataPoint#nQ4",
+					"identificationAnnotationPath": "com.sap.vocabularies.UI.v1.Identification#Q4",
+					"navigation": "dataPointNav"
+				}
+			},
+			"card05": {
+				"model": "ZOMS_OVRVW_PS_SRV",
+				"template": "sap.ovp.cards.charts.analytical",
+				"settings": {
+					"title": "{{card00_title}}",
+					"entitySet": "ZC_RESPMON_PS",
+					"chartAnnotationPath": "com.sap.vocabularies.UI.v1.Chart#Q5",
+					"dataPointAnnotationPath": "com.sap.vocabularies.UI.v1.DataPoint#nQ5",
+					"identificationAnnotationPath": "com.sap.vocabularies.UI.v1.Identification#Q5",
+					"navigation": "dataPointNav"
+				}
+			},
+			"card06": {
+				"model": "ZOMS_OVRVW_PS_SRV",
+				"template": "sap.ovp.cards.charts.analytical",
+				"settings": {
+					"title": "{{card03_title}}",
+					"entitySet": "ZC_CHECKNACRICH_PS",
+					"chartAnnotationPath": "com.sap.vocabularies.UI.v1.Chart#Q6",
+					"dataPointAnnotationPath": "com.sap.vocabularies.UI.v1.DataPoint#nQ6",
+					"identificationAnnotationPath": "com.sap.vocabularies.UI.v1.Identification#Q6"
+				}
+
+ {
+			"card00": {
+				"model": "ZOVP_IK_SRV",
+				"template": "sap.ovp.cards.list",
+				"settings": {
+					"title": "{{card00_title}}",
+					"subTitle": "{{card00_subTitle}}",
+					"entitySet": "ZC_Monitor",
+					"listType": "extended",
+					"listFlavor": "standard",
+					"sortBy": "vbeln",
+					"sortOrder": "descending",
+					"addODataSelect": true,
+					"annotationPath": "com.sap.vocabularies.UI.v1.LineItem#Q1"
+				}
+			},
+			"card01": {
+				"model": "ZOVP_IK_SRV",
+				"template": "sap.ovp.cards.table",
+				"settings": {
+					"title": "{{card01_title}}",
+					"subTitle": "{{card01_subTitle}}",
+					"entitySet": "ZC_NACHRITENSTAT",
+					"sortBy": "Bukrs",
+					"sortOrder": "descending",
+					"addODataSelect": true,
+					"annotationPath": "com.sap.vocabularies.UI.v1.LineItem#Q1"
+				}
+			},
+			"card02": {
+				"model": "ZOVP_IK_SRV",
+				"template": "sap.ovp.cards.stack",
+				"settings": {
+					"title": "{{card02_title}}",
+					"subTitle": "{{card02_subTitle}}",
+					"entitySet": "ZC_FKINTERCOMPANY",
+					"addODataSelect": true
+				}
+			},
+			"card03": {
+				"model": "ZOVP_IK_SRV",
+				"template": "sap.ovp.cards.charts.analytical",
+				"settings": {
+					"title": "{{card03_title}}",
+					"subTitle": "{{card03_subTitle}}",
+					"entitySet": "ZC_BUCHALSTAT",
+					"chartAnnotationPath": "com.sap.vocabularies.UI.v1.Chart#Q2",
+					"dataPointAnnotationPath": "com.sap.vocabularies.UI.v1.DataPoint#Q2",
+					"identificationAnnotationPath": "com.sap.vocabulariesp.UI.v1.Identification#Q2",
+					"navigation": "dataPointNav"
+				}
+			},
+			"card04": {
+				"model": "ZOVP_IK_SRV",
+				"template": "sap.ovp.cards.charts.analytical",
+				"settings": {
+					"title": "{{card03_title}}",
+					"subTitle": "{{card03_subTitle}}",
+					"entitySet": "ZC_NACHRITENSTAT",
+					"chartAnnotationPath": "com.sap.vocabularies.UI.v1.Chart#Q3",
+					"dataPointAnnotationPath": "com.sap.vocabularies.UI.v1.DataPoint#Q3",
+					"identificationAnnotationPath": "com.sap.vocabularies.UI.v1.Identification#Q3",
+					"navigation": "dataPointNav"
+				}
+
+			}
+ {
+			"card00": {
+				"model": "ZOMS_OVR_SY_SRV",
+				"template": "sap.ovp.cards.charts.analytical",
+				"settings": {
+					"title": "{{card00_title}}",
+					"entitySet": "ZC_BUCHALTUNGS_SY",
+					"chartAnnotationPath": "com.sap.vocabularies.UI.v1.Chart#buchStatus",
+					"dataPointAnnotationPath": "com.sap.vocabularies.UI.v1.DataPoint#buchStatus",
+					"identificationAnnotationPath": "com.sap.vocabularies.UI.v1.Identification#buchStatus"
+				}
+			},
+			"card01": {
+				"model": "ZOMS_OVR_SY_SRV",
+				"template": "sap.ovp.cards.charts.analytical",
+				"settings": {
+					"title": "{{card01_title}}",
+					"entitySet": "ZC_NACRICHTEN_SY",
+					"chartAnnotationPath": "com.sap.vocabularies.UI.v1.Chart#nachStatus",
+					"dataPointAnnotationPath": "com.sap.vocabularies.UI.v1.DataPoint#nachStatus",
+					"identificationAnnotationPath": "com.sap.vocabularies.UI.v1.Identification#nachStatus"
+				}
+			},
+			"card02": {
+				"model": "ZOMS_OVR_SY_SRV",
+				"template": "sap.ovp.cards.charts.analytical",
+				"settings": {
+					"title": "{{card02_title}}",
+					"subTitle": "{{card02_subTitle}}",
+					"entitySet": "ZC_RESPONSEMONITOR_SY",
+					"chartAnnotationPath": "com.sap.vocabularies.UI.v1.Chart#resmStatus",
+					"dataPointAnnotationPath": "com.sap.vocabularies.UI.v1.DataPoint#resmStatus",
+					"identificationAnnotationPath": "com.sap.vocabularies.UI.v1.Identification#resmStatus"
+				}
+			},
+			"card03": {
+				"model": "ZOMS_OVR_SY_SRV",
+				"template": "sap.ovp.cards.charts.analytical",
+				"settings": {
+					"title": "{{card03_title}}",
+					"entitySet": "ZC_INTERCOMPANY_SY",
+					"chartAnnotationPath": "com.sap.vocabularies.UI.v1.Chart#intcStatus",
+					"dataPointAnnotationPath": "com.sap.vocabularies.UI.v1.DataPoint#intcStatus",
+					"identificationAnnotationPath": "com.sap.vocabularies.UI.v1.Identification#intcStatus"
+				}
+			}

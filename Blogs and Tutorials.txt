@@ -1,0 +1,18 @@
+
+
+1.https://blogs.sap.com/2020/04/25/sap-fiori-elements-overview-page-part-1introduction/    // 4 parts in total, the 4th is the interesting one
+
+
+2.https://sapyard.com/cds-part-18-bar-chart-donut-chart-using-cds-views/
+
+
+3.https://blogs.sap.com/2018/04/04/create-an-analytical-list-page-using-abap-cds-views-and-annotations/
+
+
+1. https://sapyard.com/cds-part-18-bar-chart-donut-chart-using-cds-views/
+
+2. https://blogs.sap.com/2018/04/04/create-an-analytical-list-page-using-abap-cds-views-and-annotations/
+
+3. https://blogs.sap.com/2020/04/25/sap-fiori-elements-overview-page-part-1introduction/
+
+4. https://blogs.sap.com/2020/05/10/sap-fiori-elements-overview-page-part-4creation-of-destinations-and-overview-page-template/
